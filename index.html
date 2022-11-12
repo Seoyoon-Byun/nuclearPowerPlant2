@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-원전 안전한가?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="gradientLeft"></div>
+    <div id="gradientRight"></div>
+
+    <div id="row">
+        <header>
+            <h1 class="scroll-up scrollAni">한국 원자력 발전소의 두 얼굴, <br>어느쪽을 보시겠습니까?</h1>
+            <h2 class="scroll-up scrollAni">한국은 세계에서 원전 밀집도 1위의 국가이다.
+                2016년 현재 4개의 원자력 발전소에서 총 24기의 원자로가 가동 중이며,
+                전체 원자력 발전소 단지 반경 30km이내에
+                9개의 광역자치단체와 28개의 기초자치단체가 밀집해 있다.
+                후쿠시마 원전 사고 이후 많은 나라들이 탈핵을 결정하였지만,
+                한국은 현재 6기를 추가 건설 중이며 4기의 건설계획을 진행 중이다.</h2>
+        </header>
+
+        <section>
+            <div id="verticalLine01"></div>
+            <div id="verticalLine02"></div>
+            <div id="horizontalLine01"></div>
+            <div id="horizontalLine02"></div>
+            
+            <div class="container">
+                <div class="diagramBox scroll-up scrollAni">
+                    <div class="diagramTitle">
+                        <h4>현재 가동중인 원전 <span>24</span>기</h4>
+                    </div>
+                    <div>
+                        <div class="tenIcon">
+                            <div class="iconYellow scale-down-1"></div>
+                            <div class="iconYellow scale-down-2"></div>
+                            <div class="iconYellow scale-down-3"></div>
+                            <div class="iconYellow scale-down-4"></div>
+                            <div class="iconYellow scale-down-5"></div>
+                            <div class="iconYellow scale-down-6"></div>
+                            <div class="iconYellow scale-down-7"></div>
+                            <div class="iconYellow scale-down-8"></div>
+                            <div class="iconYellow scale-down-9"></div>
+                            <div class="iconYellow scale-down-10"></div>
+                            <div class="iconText">10</div>
+                        </div>
+                        <div class="tenIcon">
+                            <div class="iconYellow scale-down-3"></div>
+                            <div class="iconYellow scale-down-4"></div>
+                            <div class="iconYellow scale-down-5"></div>
+                            <div class="iconYellow scale-down-6"></div>
+                            <div class="iconYellow scale-down-7"></div>
+                            <div class="iconYellow scale-down-8"></div>
+                            <div class="iconYellow scale-down-9"></div>
+                            <div class="iconYellow scale-down-10"></div>
+                            <div class="iconYellow scale-down-11"></div>
+                            <div class="iconYellow scale-down-12"></div>
+                            <div class="iconText">20</div>
+                        </div>
+                        <div class="tenIcon">
+                            <div class="iconYellow scale-down-5"></div>
+                            <div class="iconYellow scale-down-6"></div>
+                            <div class="iconYellow scale-down-7"></div>
+                            <div class="iconYellow scale-down-8"></div>
+                            <div class="iconRed scale-down-9"></div>
+                            <div class="iconRed scale-down-10"></div>
+                            <div class="iconLine scale-down-11"></div>
+                            <div class="iconLine scale-down-12"></div>
+                            <div class="iconLine scale-down-13"></div>
+                            <div class="iconLine scale-down-14"></div>
+                            <div class="iconText">24</div>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <div id="iconCaptionYellow"></div>
+                        <div class="captionText">가동중</div>
+                        <div id="iconCaptionRed"></div>
+                        <div class="captionText">정지중</div>
+                        <div id="iconCaptionLine"></div>
+                        <div class="captionText">건설중</div>
+                    </div>
+                </div>
+
+
+                <div class="diagramBox scroll-up-late1 scrollAni">
+                    <div class="diagramTitle">
+                        <h4>원전으로 만드는 전기의 양 세계 <span>5</span>위</h4>
+                    </div>
+                    <div class="diagramTitle">
+                        <h4>원전 보유 수 세계 <span>5</span>위</h4>
+                    </div>
+                    <div id="diagram02">
+                        <div id="yellowBox">24.43GW(e)</div>
+                        <div id="whiteBox">25기</div>
+                        <div id="graphNum">
+                            <div>0</div>
+                            <div>9</div>
+                            <div>18</div>
+                            <div>27</div>
+                        </div>
+                    </div>
+                    <div class="caption">* 원전 설비용량 GW(e)</div>
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="diagramBox scroll-up scrollAni">
+                    <div class="diagramTitle">
+                        <h4>원전 근처 인구 밀집도 세계 <span>1</span>위</h4>
+                    </div>
+                    <div id="diagram03">
+                        <div class="barGraph">
+                            <div id="barGraph01">
+                                <div>① 고리8기</div>
+                                <div><span id="count01">8620</span>MW</div>
+                            </div>
+                            <div class="peopleNum">830만명</div>
+                        </div>
+                        <div class="barGraph">
+                            <div id="barGraph02">
+                                <div>③ 한울6기</div>
+                                <div><span id="count02">6216</span>MW</div>
+                            </div>
+                            <div class="peopleNum">5만명</div>
+                        </div>
+                        <div class="barGraph">
+                            <div id="barGraph03">
+                                <div>④ 한빛6기</div>
+                                <div><span id="count03">6193</span>MW</div>
+                            </div>
+                            <div class="peopleNum">14만명</div>
+                        </div>
+                        <div class="barGraph">
+                            <div id="barGraph04">
+                                <div>⑦ 월성6기</div>
+                                <div><span id="count04">4806</span>MW</div>
+                            </div>
+                            <div class="peopleNum">130만명</div>
+                        </div>
+                    </div>
+                    <div class="caption">* 총 설비용량(MW), 반경 30km내 인구(만명)</div>
+                </div>
+
+
+
+                <div class="diagramBox scroll-up-late1 scrollAni">
+                    <div class="diagramTitle">
+                        <h4>국토 면적 대비 원전 밀집도 세계 <span>1</span>위</h4>
+                    </div>
+                    <div id="diagram04">
+                        <div class="opacity0 scale-down-4">
+                            <div id="circleTop01">한국</div>
+                            <div id="circleBottom01">4,175km<sup>2</sup></div>
+                        </div>
+                        <div class="opacity0 scale-down-8">
+                            <div id="circleTop02">일본</div>
+                            <div id="circleBottom02">7,558km<sup>2</sup></div>
+                        </div>
+                        <div class="opacity0 scale-down-12">
+                            <div id="circleTop03">프랑스</div>
+                            <div id="circleBottom03">9,378km<sup>2</sup></div>
+                        </div>
+                    </div>
+                    <div class="caption">* 원전 1기당 면적(km<sup>2</sup>), 일본(50기), 프랑스(56기)</div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section>
+
+            <div class="cardBox">
+
+                <div class="scroll-up scrollAni" id="card01">
+                    <div class="card" id="cardLine01">
+                        <div id="cardText01" class="cardContent none scaleX">
+                            <h5>원전 수소제거장치가 더 위험하다</h5>
+                            <p>
+                            원자로에 사고가 나면 핵연료가 녹아 내리며 고농도의 수소가 나오는데, 
+                            이 장치는 수소 농도를 낮춰 폭발을 막는 역할을 한다. 
+                            그러나 국산 수소제거장치는 세라믹으로 만들어져 있어 
+                            그 세라믹이 수소와 반응하면서 떨어져 나온 촉매가 불꽃이 되어 
+                            폭발 위험을 더 키운다. 
+                            원전 1기당 적게는 21개, 많게는 41개, 
+                            전체 747개의 수소제거장치가 달려 있다.
+                            </p>
+                        </div>
+                        <div id="cardImg01" class="cardContent"><img src="img/object_hydrogen.png" alt=""></div>
+                    </div>
+                </div>
+
+
+                <div class="scroll-up-late1 scrollAni" id="card02">
+                    <div class="card" id="cardLine02">
+                        <div id="cardText02" class="cardContent none scaleX">
+                            <h5>고리원전 2호기의 노심손상빈도는 ‘천만년당 158회’로 기준에 미치지 못했다</h5>
+                            <p>
+                                부산 기장군 고리원전 2호기의 노심손상빈도(원자로 중심부인 노심이 손상될 확률)가 
+                                ‘천만년당 158회’에 달해 ‘천만년당 100회 이하’로 
+                                정해진 현재 기준에 미치지 못 하는 것으로 나타났다. 
+                                기준 미달로 안전 문제 발생 가능성이 있는 만큼 
+                                수명 연장을 추진해서는 안 된다는 주장이 나온다.
+                            </p>
+                        </div>
+                        <div id="cardImg02" class="cardContent"><img src="img/object_gloves.png" alt=""></div>
+                    </div>
+                </div>
+
+
+                <div class="scroll-up-late2 scrollAni" id="card03">
+                    <div class="card" id="cardLine03">
+                        <div id="cardText03" class="cardContent none scaleX">
+                            <h5>한빛원전 1호기의 열출력 급증 사고는 인재였다</h5>
+                            <p>
+                                한빛 1호의 원자로(핵반응을 통해 에너지를 얻는 장치)가 기준치를 넘어 급격히 뜨거워졌다. 
+                                원자력안전위원회의 조사 결과, 담당 차장은 열 수치를 계산할 줄 몰랐고, 
+                                면허 없는 직원이 열 제어 장치를 조작했다는 것이 드러났다. 
+                                당시 뜨거워진 원자로는 문제 발생 후 12시간이 지나서야 수동으로 정지되었다.
+                            </p>
+                        </div>
+                        <div id="cardImg03" class="cardContent"><img src="img/object_man.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="cardBox">
+
+                <div class="scroll-up scrollAni" id="card04">
+                    <div class="card" id="cardLine04">
+                        <div id="cardText04" class="cardContent none scaleX">
+                            <h5>한빛・한울 원전의 중저준위 방폐물 포화율은 100%를 초과했다</h5>
+                            <p>
+                                원전에서 나오는 폐필터나 폐윤활유를 비롯해 작업복, 장갑, 부품 등 
+                                방사능 함유량이 비교적 낮은 방폐물(방사성폐기물)을 중저준위 폐기물이라 한다. 
+                                200L 드럼 처리한 폐기물에 임시저장 폐기물까지 더한 중저준위 방폐물 저장시설 포화율은 
+                                한빛 원전은 100.5%, 한울 원전은 105.3%로 저장용량을 넘겼다. 
+                                중저준위 폐기물을 더 저장할 공간이 없으면 원전 가동 중단해야 한다.
+                            </p>
+                        </div>
+                        <div id="cardImg04" class="cardContent"><img src="img/object_drum.png" alt=""></div>
+                    </div>
+                </div>
+
+
+                <div class="scroll-up-late1 scrollAni" id="card05">
+                    <div class="card" id="cardLine05">
+                        <div id="cardText05" class="cardContent none scaleX">
+                            <h5>고준위 방사성 폐기물 처리 문제는 해결되지 않고 있다</h5>
+                            <p>
+                                고준위 폐기물이란 우라늄으로 전기를 생산하고 난 후 발생하는 폐기물로 
+                                ‘사용후 핵연료’를 말하며 오랜시간 높은 열과 방사선을 내뿜는다. 
+                                격리 및 보관하는 직접 처리 방식의 영구처분장을 설립하는 것이 유일한 대안이지만 
+                                우리나라처럼 좁은 땅에서 안전이 보장되는 적합한 지역을 찾기 쉽지 않으며, 주민 반발도 거세다.
+                            </p>
+                        </div>
+                        <div id="cardImg05" class="cardContent"><img src="img/object_concrete.png" alt=""></div>
+                    </div>
+                </div>
+
+
+                <div class="scroll-up-late2 scrollAni" id="card06">
+                    <div class="card" id="cardLine06">
+                        <div id="cardText06" class="cardContent none scaleX">
+                            <h5>월성원전 부지 지하수가 방사성 물질 유출로 오염되었다</h5>
+                            <p>
+                                경주 월성원전 부지 지하수가 광범위하게 방사성 물질인 삼중수소로 오염된 사실이 드러났다. 
+                                삼중수소는 후쿠시마 원전사고 오염수에 대량 함유돼 논란을 빚고 있는 방사성 물질로, 
+                                인체에서 내부 피폭을 일으켜 유전자 변이를 초래한다고 알려져 있다. 
+                                리터 당 71만3000Bq(베크렐)의 삼중수소가 검출되었으며, 
+                                이는 배출 가능 배수로에 대해 정한 관리기준의 17.8배에 이르는 고농도다.
+                            </p>
+                        </div>
+                        <div id="cardImg06" class="cardContent"><img src="img/object_mask.png" alt=""></div>
+                    </div>
+                </div>
+
+
+                <div class="scroll-up-late3 scrollAni" id="card07">
+                    <div class="card" id="cardLine07">
+                        <div id="cardText07" class="cardContent none scaleX">
+                            <h5>온배수 배출 문제 또한 심각하다</h5>
+                            <p>
+                                온배수는 발전소에서 수증기를 냉각하고 난 뒤 뜨거워진 물로, 바닷물보다 7~8도가량 높다. 
+                                지난 한 해 동안 고리·새울·월성·한빛·한울 등 5개 본부에서 배출한 온배수는 약 313억 톤에 달한다. 
+                                온배수는 바닷물에 녹아 있는 이산화탄소를 대기 중에 방출시켜 지구온난화에도 악영향을 미친다.
+                            </p>
+                        </div>
+                        <div id="cardImg07" class="cardContent"><img src="img/object_fuel.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="container" id="section03">
+            <div id="verticalLine03"></div>
+            <h3 class="scroll-up scrollAni">우리나라 원자력 발전소, 안전하고 투명하게 운영되고 있나요?</h3>
+            <div id="verticalLine04"></div>
+            <img src="img/footer_mark.png" alt="">
+        </section>
+
+
+        <footer>
+            <h6>ⓒ 2022 digital publishing 2. Seoyun & Seeun all rights reserved.</h6>
+        </footer>
+    </div>
+</body>
+</html>
